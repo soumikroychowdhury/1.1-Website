@@ -1,0 +1,115 @@
+*{
+    color:rgb(238, 171, 48);
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headerheading{
+    color: rgb(219, 108, 17);
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:orange;
+    text-align: center;
+    padding:1.5rem;
+    float: left;
+}
+nav a:hover{
+    color:rgb(219, 108, 17);
+}
+.pageheading{
+    color: rgb(219, 183, 115);
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.aboutus{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.centeralign{
+    text-align: center;
+}
+.homespanimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    background-color: grey;
+    padding: 1px 1px 1px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,textarea{
+    width: 25rem;
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(46, 45, 45);
+}
+fieldset{
+    background-color: rgb(46, 45, 45);
+    border: 1px solid cornflowerblue;
+    width: 25rem;
+}
+.yesyes{
+    background-color: rgb(46, 45, 45);
+}
+.registrationheading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: cyan;
+}
+table,tr,th,td{
+    color: rgb(236, 183, 76);
+    border:2px solid rgb(173, 165, 165);
+    border-collapse: collapse;
+    padding: 2rem;
+    border-spacing: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    background-color: rgb(82, 79, 79);
+}
+td{
+    background-color: rgb(27, 25, 25);
+}
+.prizes{
+    font-size: 1.8rem;
+    text-align: center;
+}
+li{
+    font-size: 2rem;
+    padding: 2rem;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
